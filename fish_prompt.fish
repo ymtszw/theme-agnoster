@@ -219,6 +219,7 @@ end
 # ===========================
 
 function fish_prompt
+  history merge
   set -g RETVAL $status
   prompt_status
   prompt_virtual_env
